@@ -1,0 +1,65 @@
+/* Apply the Schoolbell font to everything on the page */
+body {
+    font-family: 'Schoolbell', cursive;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: green;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, h6 {
+    font-family: 'Schoolbell', arial, serif; 
+}
+
+.header {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+
+/* CSS to center an image */
+img {
+    /* Use absolute positioning */
+    position: absolute;
+    
+    /* Position the top-left corner of the image in the center of the screen */
+    top: 50%;
+    left: 50%;
+    
+    /* Adjust the position of the image to truly center it */
+    transform: translate(-50%, -50%);
+    
+    /* Optional: Set a specific width or height if desired */
+    /* width: 100px; */
+    /* height: auto; */
+
+    /* Absolute positioning */
+    position: absolute;
+
+    /* Positioning the image on the screen */
+    top: 300px;    /* Adjust as needed */
+    left: 500px;   /* Adjust as needed */
+
+    /* Resizing the image */
+    width: 200px;  /* Adjust as needed */
+    height: auto;  /* Maintains the aspect ratio */
+
+    /* Optional: Add more styles as needed */
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+}
